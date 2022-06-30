@@ -10,9 +10,9 @@ const app = Vue.createApp({
     outputGoal() {
       const randomNumber = Math.random();
       if (randomNumber < 0.5) {
-        this.text = "Learn Vue!";
+        this.text = `[${randomNumber.toFixed(2)}] - Learn Vue!`;
       } else {
-        this.text = "Master Vue!";
+        this.text = `[${randomNumber.toFixed(2)}] - Learn PHP!`;
       }
     },
   },
