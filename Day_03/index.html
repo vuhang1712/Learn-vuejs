@@ -21,9 +21,14 @@
       <input v-on:input="setStep" type="number" />
       <button v-on:click="plus()">Add</button>
       <button v-on:click="reduce()">Reduce</button>
+      <p v-once>Starting counter: {{ counter }}</p>
       <p>Result: {{ counter }}</p>
-      <!-- <input v-on:input="setName" type="text"> 
-      <p>Your name: {{ name }}</p> -->
+      <input v-on:input="setName" v-on:keyup.enter="confirmInput" type="text" />
+      <p>Your name: {{ confirmedName }}</p>
+      <form v-on:submit.prevent="submitForm">
+        <input type="text" />
+        <button>Sign up</button>
+      </form>
     </section>
   </body>
 </html>
