@@ -53,3 +53,19 @@ Buổi 4:
 - Bài tập:
   - Áp dụng Methods, Computed, Watchers làm lại bài thực hành trên lớp
   - Tạo 2 ô input Last name và Name, nhập dữ liệu và in tên bên dưới dòng Your name, làm theo 2 cách: dùng watcher và computed
+
+Buổi 5:
+
+- Nội dung bài học:
+  - Dynamic Styling with Inline Styles
+  - Adding CSS Classes Dynamically
+  - Classes & Computed Properties
+  - Dynamic Classes: Array Syntax
+  - Module Summary: Basics & Core Concepts - DOM Interaction with Vue
+  - Module: Rendering Conditional Content & Lists
+  - Module Introduction
+  - Understanding the Problem
+  - Rendering Content Conditionally
+  - v-if, v-else and v-else-if
+- Bài tập về nhà:
+  - Thực hành bài tập Styling theo bài học, thêm tính năng click vào box thì chuyển về giao diện cũ. (toggle)
