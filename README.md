@@ -69,3 +69,19 @@ Buổi 5:
   - v-if, v-else and v-else-if
 - Bài tập về nhà:
   - Thực hành bài tập Styling theo bài học, thêm tính năng click vào box thì chuyển về giao diện cũ. (toggle)
+
+Buổi 6:
+
+- Nội dung bài học:
+  - Using v-show Instead Of v-if
+  - Rendering Lists of Data
+  - Diving Deeper Into v-for
+  - Removing List Items
+  - Lists & Keys
+  - Module Summary
+  - Module: Course Project: The Monster Slayer Game
+  - Module Introduction
+  - Project Setup & First Methods
+- Bài tập: Tiếp tục làm project trong khóa học:
+  - Kết nối 2 function attack với HTML
+  - Hoàn thành chức năng khi nhấn nút Attack: máu của monster và player bị giảm trên thanh bars
